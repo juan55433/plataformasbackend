@@ -12,24 +12,24 @@ Author URL: http://w3layouts.com
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--// bootstrap-css -->
 <!-- css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <!--// css -->
 <!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="../css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
 <!-- portfolio -->	
-<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/chocolat.css" type="text/css" media="all">
 <!-- //portfolio -->	
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/bootstrap.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -44,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<!-- banner -->
-	<body background="images/1.jpg">
+	<body background="../images/1.jpg">
 	<div class="banner-index">
 		<div class="agileinfo-dot">
 			
@@ -240,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div> 
 				<div class="modal-body">
 					<div class="agileits-w3layouts-info">
-						<img src="images/1.jpg" alt="" />
+						<img src="../images/1.jpg" alt="" />
 						<p>Bienvenido a Game Solutions, estamos para ayudarte sobre cualquier información del mundo gamer para que tu compra sea lo mas sencilla, eficaz y rápida posible para una experiencia inolvidable.</p>
 					</div>
 				</div>
@@ -294,7 +294,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //copyright -->
-	<script src="js/jarallax.js"></script>
+	<script src="../js/jarallax.js"></script>
 	<!-- <script src="js/SmoothScroll.min.js"></script> -->
 	<script type="text/javascript">
 		/* init Jarallax */
@@ -304,9 +304,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			imgHeight: 768
 		})
 	</script>
-	<script src="js/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
+	<script src="../js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="../js/move-top.js"></script>
+	<script type="text/javascript" src="../js/easing.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -325,8 +325,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //here ends scrolling icon -->
 	<!-- Tabs-JavaScript -->
-	<script src="js/jquery.filterizr.js"></script>
-		<script src="js/controls.js"></script>
+	<script src="../js/jquery.filterizr.js"></script>
+		<script src="../js/controls.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				$('.filtr-container').filterizr();
@@ -334,7 +334,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 	<!-- //Tabs-JavaScript -->
 	<!-- PopUp-Box-JavaScript -->
-		<script src="js/jquery.chocolat.js"></script>
+		<script src="../js/jquery.chocolat.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				$('.filtr-item a').Chocolat();
