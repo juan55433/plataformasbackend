@@ -74,16 +74,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<li class="active"><a href="index.blade.php">Home</a></li>
 											<li class = "dropdown"><a href="products.blade.php" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
 												<ul style="text-align:center; font-family:Arial;" class="dropdown-menu">
-												<li><a href="html/sony.html">Sony</a></li>
+												<li><a href="sony.blade.php">Sony</a></li>
 												<li class="divider"></li>
-												<li><a href="html/microsoft.html">Microsoft</a></li>
+												<li><a href="microsoft.blade.php">Microsoft</a></li>
 												<li class="divider"></li>
-												<li><a href="html/pc.html">PC</a></li>
+												<li><a href="pc.blade.php">PC</a></li>
 												</ul>
 											</li>
-											<li><a href="html/contactus.html">Contacto</a></li>
-											<li><a href="html/register.html">Registro</a></li>
-											<li><a href="html/login.html">Login</a></li>
+											<li><a href="contactus.blade.php">Contacto</a></li>
+											<li><a href="register.blade.php">Registro</a></li>
+											<li><a href="login.blade.php">Login</a></li>
 										</ul>
 									</nav>
 								</div>
