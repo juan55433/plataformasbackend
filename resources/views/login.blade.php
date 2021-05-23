@@ -38,14 +38,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	});
 </script> 
+
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
 </head>
 <body>
 	<!-- banner -->
-	<body background="../images/1.jpg">
-	<div class="banner-index">
+	<div class="banner-login">
 		<div class="agileinfo-dot">
 			
 			<div class="nv-main">
@@ -71,19 +71,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1" style ="padding-top: -5px;border-top-witdh: 0px; border-top-style:solid; margin-top:-50px;padding-bottom:10px;">
 									<nav>
 										<ul class="nav navbar-nav">
-											<li class="active"><a href="index.blade.php">Home</a></li>
-											<li class = "dropdown"><a href="products.blade.php" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
+											<li><a href="../index.html">Home</a></li>
+											<li class = "dropdown"><a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
 												<ul style="text-align:center; font-family:Arial;" class="dropdown-menu">
-												<li><a href="html/sony.html">Sony</a></li>
+												<li><a href="sony.html">Sony</a></li>
 												<li class="divider"></li>
-												<li><a href="html/microsoft.html">Microsoft</a></li>
+												<li><a href="microsoft.html">Microsoft</a></li>
 												<li class="divider"></li>
-												<li><a href="html/pc.html">PC</a></li>
+												<li><a href="pc.html">PC</a></li>
 												</ul>
 											</li>
-											<li><a href="html/contactus.html">Contacto</a></li>
-											<li><a href="html/register.html">Registro</a></li>
-											<li><a href="html/login.html">Login</a></li>
+											<li><a href="contactus.html">Contacto</a></li>
+											<li><a href="register.html">Registro</a></li>
+											<li class="active"><a href="login.html">Login</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -102,8 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<ul class="rslides callbacks callbacks1" id="slider4">
 										<li>
 											<div class="banner_text">
-												<h3>Bienvenido</h3>
-												<p>El hogar de los gamers</p>
+												<h3>Iniciar Sesión</h3>
 												<div class="w3-button">
 													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
 												</div>
@@ -142,95 +141,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //banner -->
-
-
-	<!-- markets -->
-	<div class="markets" id="markets">
-		<div class="container">
-			<div class="agileits-title"> 
-				<h3>Nuestros servicios</h3>
-			</div>
-			<div class="markets-grids">
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-gamepad" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Hardware</h5>
-							<p>La mejor calidad del mercado está en Game Solutions</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-trophy" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Acumulador</h5>
-							<p>Por cada compra se acumularán puntos en su cuenta para reclamar beneficios</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-user" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Hecho por gamers</h5>
-							<p>Somos un grupo de jugadores que ofrecen los mejores productos a nuestros clientes</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Servicio de calidad</h5>
-							<p>Somos conocidos por proveer un servicio de calidad en cada uno de nuestros negocios</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-comments" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Soporte 24/7</h5>
-							<p>Tenemos servicio al cliente 24/7 por si tienes dudas acerca de tu compra</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Contacto</h5>
-							<p>Rellena nuestro formulario de contacto si quieres saber más.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //markets -->
-	
-	<div class="simple-ss" id="simple-ss"></div>
-	<!-- modal -->
+     <!-- modal -->
 	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -240,34 +151,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div> 
 				<div class="modal-body">
 					<div class="agileits-w3layouts-info">
-						<img src="../images/1.jpg" alt="" />
-						<p>Bienvenido a Game Solutions, estamos para ayudarte sobre cualquier información del mundo gamer para que tu compra sea lo mas sencilla, eficaz y rápida posible para una experiencia inolvidable.</p>
+						<img src="../images/lgn.png" alt="" />
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- //modal -->
-	<!-- footer -->
+
+
+    <!-- footer -->
 	<div class="footer">
 		<div class="container">
 			<div class="footer-top">
 				<div class="col-md-4 amet-sed"> 
 					<div class="footer-title">
-						<h3>Sobre Nosotros</h3>
+						<h3>About Us</h3>
 					</div> 
-					<p>Somos un grupo de gamers que conocemos el mercado en su totalidad, el cual ayudamos a nuestros clientes a conseguir cualquier pieza de hardware o videoconsola de manera rápida y eficiente sin tener que visitar páginas sospechosas o engañosas, Game Solutions está hecha por gamers para gamers. </p>
+					<p>We are a group of gamers who know the market in its entirety, which we help our clients to get any piece of hardware or video console quickly and efficiently without having to visit suspicious or misleading pages, made by gamers for gamers. </p>
 				</div>
 				<div class="col-md-4 amet-sed amet-medium">
 					<div class="footer-title">
-						<h3>Créditos</h3>
+						<h3>Twitter Feed</h3>
 					</div> 
-					<p><a href="mailto:juan.ochoad@upb.edu.co">juan.ochoad@upb.edu.co</a></p>
-					<p><a href="mailto:daniel.arboleda@upb.edu.co">daniel.arboleda@upb.edu.co</a> </p>
+					<p><a href="#">http://twitter.com</a> Visit our latest tweets to known the status of some products! </p>
+					<p><a href="#">support@gamesolutions.com</a> ¿Doubts? you can mail us and we will answer you as fast as possible. </p>
 				</div>
 				<div class="col-md-4 amet-sed ">
 					<div class="footer-title">
-						<h3>Síguenos</h3>
+						<h3>Follow Us</h3>
 					</div> 
 					<div class="agileinfo-social-grids">
 						<ul>
@@ -341,7 +253,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		</script>
 	<!-- //PopUp-Box-JavaScript -->
-</body>
-<div id="boton_flotante"><img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/48/WhatsApp-icon.png"></div>
-
-</html>
+	</body>
+	<div id="boton_flotante"><img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/48/WhatsApp-icon.png"></div>
+	</html>
