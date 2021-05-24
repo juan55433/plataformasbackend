@@ -44,3 +44,7 @@ Auth::routes();
 Route::get('/contactus', function () {
     return view('contactus');
 })->middleware('auth');;
+
+Route::get('/api', function () {
+    return view('api');
+})->middleware('auth');;

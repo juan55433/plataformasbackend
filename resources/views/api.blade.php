@@ -14,18 +14,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script
 		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- bootstrap-css -->
-	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="<?php echo url('/');?>/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--// bootstrap-css -->
 	<!-- css -->
-	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="../css/signup.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo url('/');?>/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo url('/');?>/css/signup.css" type="text/css" media="all" />
 	<!--// css -->
 
 	<!-- font-awesome icons -->
-	<link href="../css/font-awesome.css" rel="stylesheet">
+	<link href="<?php echo url('/');?>/css/font-awesome.css" rel="stylesheet">
 	<!-- //font-awesome icons -->
 	<!-- portfolio -->
-	<link rel="stylesheet" href="../css/chocolat.css" type="text/css" media="all">
+	<link rel="stylesheet" href="<?php echo url('/');?>/css/chocolat.css" type="text/css" media="all">
 	<!-- //portfolio -->
 	<!-- font -->
 	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
@@ -33,9 +33,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300'
 		rel='stylesheet' type='text/css'>
 	<!-- //font -->
-	<script src="../js/jquery-1.11.1.min.js"></script>
-	<script src="../js/main.js"></script>
-	<script src="../js/bootstrap.js"></script>
+	<script src="<?php echo url('/');?>/js/jquery-1.11.1.min.js"></script>
+	<script src="<?php echo url('/');?>/js/main.js"></script>
+	<script src="<?php echo url('/');?>/js/bootstrap.js"></script>
 
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
@@ -80,18 +80,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<nav>
 										<ul class="nav navbar-nav">
 											<li class="active"><a href="index.blade.php">Home</a></li>
-											<li class = "dropdown"><a href="products.blade.php" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
-												<ul style="text-align:center; font-family:Arial;" class="dropdown-menu">
 												<li><a href="sony.blade.php">Sony</a></li>
-												<li class="divider"></li>
 												<li><a href="microsoft.blade.php">Microsoft</a></li>
-												<li class="divider"></li>
 												<li><a href="pc.blade.php">PC</a></li>
-												</ul>
-											</li>
 											<li><a href="contactus.blade.php">Contacto</a></li>
-											<li><a href="register.blade.php">Registro</a></li>
-											<li><a href="login.blade.php">Login</a></li>
+											<li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();">Logout</a>
+											<form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
+											{{ csrf_field() }}
+											</form>
 										</ul>
 									</nav>
 								</div>
@@ -114,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</div>
 								<div class="clearfix"> </div>
-								<script src="../js/responsiveslides.min.js"></script>
+								<script src="<?php echo url('/');?>/js/responsiveslides.min.js"></script>
 								<script>
 									// You can also use "$(window).load(function() {"
 									$(function () {
@@ -230,7 +226,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //copyright -->
-	<script src="../js/jarallax.js"></script>
+	<script src="<?php echo url('/');?>/js/jarallax.js"></script>
 	<!-- <script src="js/SmoothScroll.min.js"></script> -->
 	<script type="text/javascript">
 		/* init Jarallax */
@@ -240,9 +236,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			imgHeight: 768
 		})
 	</script>
-	<script src="../js/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="../js/move-top.js"></script>
-	<script type="text/javascript" src="../js/easing.js"></script>
+	<script src="<?php echo url('/');?>/js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="<?php echo url('/');?>/js/move-top.js"></script>
+	<script type="text/javascript" src="<?php echo url('/');?>/js/easing.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function () {
@@ -261,8 +257,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //here ends scrolling icon -->
 	<!-- Tabs-JavaScript -->
-	<script src="../js/jquery.filterizr.js"></script>
-	<script src="../js/controls.js"></script>
+	<script src="<?php echo url('/');?>/js/jquery.filterizr.js"></script>
+	<script src="<?php echo url('/');?>/js/controls.js"></script>
 	<script type="text/javascript">
 		$(function () {
 			$('.filtr-container').filterizr();
@@ -270,14 +266,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //Tabs-JavaScript -->
 	<!-- PopUp-Box-JavaScript -->
-	<script src="../js/jquery.chocolat.js"></script>
+	<script src="<?php echo url('/');?>/js/jquery.chocolat.js"></script>
 	<script type="text/javascript">
 		$(function () {
 			$('.filtr-item a').Chocolat();
 		});
 	</script>
 	<!-- //PopUp-Box-JavaScript -->
-	<script src="../js/login.js"></script>
+	<script src="<?php echo url('/');?>/js/login.js"></script>
 </body>
 
 
