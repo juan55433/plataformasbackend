@@ -14,21 +14,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script
 		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- bootstrap-css -->
-	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="<?php echo url('/');?>/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--// bootstrap-css -->
 	<!-- MODAL -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<!-- css -->
-	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="../css/signup.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo url('/');?>/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo url('/');?>/css/signup.css" type="text/css" media="all" />
 	<!--// css -->
 	<!-- font-awesome icons -->
-	<link href="../css/font-awesome.css" rel="stylesheet">
+	<link href="<?php echo url('/');?>/css/font-awesome.css" rel="stylesheet">
 	<!-- //font-awesome icons -->
 	<!-- portfolio -->
-	<link rel="stylesheet" href="../css/chocolat.css" type="text/css" media="all">
+	<link rel="stylesheet" href="<?php echo url('/');?>/css/chocolat.css" type="text/css" media="all">
 	<!-- //portfolio -->
 	<!-- font -->
 	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
@@ -36,10 +36,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300'
 		rel='stylesheet' type='text/css'>
 	<!-- //font -->
-	<script src="../js/jquery-1.11.1.min.js"></script>
-	<script src="../js/main.js"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/registro.js">
+	<script src="<?php echo url('/');?>/js/jquery-1.11.1.min.js"></script>
+	<script src="<?php echo url('/');?>/js/main.js"></script>
+	<script src="<?php echo url('/');?>/js/bootstrap.js"></script>
+	<script src="<?php echo url('/');?>/js/registro.js">
 	</script>
 	<script type="text/javascript">
 
@@ -264,7 +264,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //copyright -->
-	<script src="../js/jarallax.js"></script>
+	<script src="<?php echo url('/');?>/js/jarallax.js"></script>
 	<!-- <script src="js/SmoothScroll.min.js"></script> -->
 	<script type="text/javascript">
 		/* init Jarallax */
@@ -274,9 +274,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			imgHeight: 768
 		})
 	</script>
-	<script src="../js/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="../js/move-top.js"></script>
-	<script type="text/javascript" src="../js/easing.js"></script>
+	<script src="<?php echo url('/');?>/js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="<?php echo url('/');?>/js/move-top.js"></script>
+	<script type="text/javascript" src="<?php echo url('/');?>/js/easing.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function () {
@@ -295,8 +295,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //here ends scrolling icon -->
 	<!-- Tabs-JavaScript -->
-	<script src="../js/jquery.filterizr.js"></script>
-	<script src="../js/controls.js"></script>
+	<script src="<?php echo url('/');?>/js/jquery.filterizr.js"></script>
+	<script src="<?php echo url('/');?>/js/controls.js"></script>
 	<script type="text/javascript">
 		$(function () {
 			$('.filtr-container').filterizr();
@@ -304,7 +304,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //Tabs-JavaScript -->
 	<!-- PopUp-Box-JavaScript -->
-	<script src="../js/jquery.chocolat.js"></script>
+	<script src="<?php echo url('/');?>/js/jquery.chocolat.js"></script>
 	<script type="text/javascript">
 		$(function () {
 			$('.filtr-item a').Chocolat();
@@ -312,5 +312,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //PopUp-Box-JavaScript -->
 
-
+    <div id="boton_flotante"><img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/48/WhatsApp-icon.png"></div>
 </body>
