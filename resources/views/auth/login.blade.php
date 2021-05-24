@@ -79,13 +79,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1" style ="padding-top: -5px;border-top-witdh: 0px; border-top-style:solid; margin-top:-50px;padding-bottom:10px;">
 									<nav>
 										<ul class="nav navbar-nav">
-											<li class="active"><a href="index">Home</a></li>
-												<li><a href="sony">Sony</a></li>
-												<li><a href="microsoft">Microsoft</a></li>
-												<li><a href="pc">PC</a></li>
-											<li><a href="contactus">Contacto</a></li>
 											<li><a href="register">Registro</a></li>
-											<li><a href="login">Login</a></li>
+											<li class ="active"><a href="login">Login</a></li>
 										</ul>
 									</nav>
 								</div>

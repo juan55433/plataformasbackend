@@ -76,8 +76,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li><a href="microsoft">Microsoft</a></li>
 												<li><a href="pc">PC</a></li>
 											<li><a href="contactus">Contacto</a></li>
-											<li><a href="register">Registro</a></li>
-											<li><a href="login">Login</a></li>
+											<li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();">Logout</a>
+											<form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
+											{{ csrf_field() }}
+											</form>
 										</ul>
 									</nav>
 								</div>

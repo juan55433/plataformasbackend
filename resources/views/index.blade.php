@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<span class="icon-bar"></span>
 									</button>
 								</div>
-
+							
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1" style ="padding-top: -5px;border-top-witdh: 0px; border-top-style:solid; margin-top:-50px;padding-bottom:10px;">
 									<nav>
@@ -76,8 +76,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<li><a href="microsoft">Microsoft</a></li>
 											<li><a href="pc">PC</a></li>
 											<li><a href="contactus">Contacto</a></li>
-											<li><a href="register">Registro</a></li>
-											<li><a href="login">Login</a></li>
+											<li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();">Logout</a>
+											<form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
+											{{ csrf_field() }}
+											</form>
 										</ul>
 									</nav>
 								</div>
