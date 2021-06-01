@@ -144,6 +144,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<div id="resultado">
 	<script>
+			$(function () {
+				fetch('https://rickandmortyapi.com/api/character').then(x =>
+					x.json().then(response => {
+						var ans = "";
+						ans += "<button class='btn btn-primary' type='button'style='white-space:pre-wrap;width:100px;margin:20px' onclick='agregarPorNombre()'>";
+						ans += "Agregar Nuevo Personaje</button>";
+						ans += "<div id='agregado'></div>"
+						for (var i in response.results) {
+							console.log('dentro del for')
+							console.log(response.results[i])
+							temp = response.results[i];
+
+							ans += "<div class= 'usuario' id='"+temp.id+"'><img class = 'img-circle' src='" + temp.image + "' />";
+							ans += "<p>";
+							ans += temp.name;
+							ans += "</p><button class='btn btn-danger' type='button' style='margin-bottom: 20px' onclick='eliminar("+temp.id+")'>Eliminar personaje</button></div>";
+						}
+
+						resultado.innerHTML = ans;
+
+					}
+
+					))
+			})
 			function agregarPorNombre (){
 				var random = Math.floor(Math.random() * (671 - 1) + 1);
 				console.log("random ="+random);
@@ -160,13 +184,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					}
 
 					))
-			})
+			}
 			function eliminar(id){
 				$("#"+id).remove();
 			}
-
-		</script> 
-		
+		</script>
 	</div>
 	<!-- footer -->
 	<div class="footer">
