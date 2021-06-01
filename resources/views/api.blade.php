@@ -79,11 +79,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1" style ="padding-top: -5px;border-top-witdh: 0px; border-top-style:solid; margin-top:-50px;padding-bottom:10px;">
 									<nav>
 										<ul class="nav navbar-nav">
-											<li class="active"><a href="index.blade.php">Home</a></li>
-												<li><a href="sony.blade.php">Sony</a></li>
-												<li><a href="microsoft.blade.php">Microsoft</a></li>
-												<li><a href="pc.blade.php">PC</a></li>
-											<li><a href="contactus.blade.php">Contacto</a></li>
+											<li class="active"><a href="index">Home</a></li>
+												<li><a href="sony">Sony</a></li>
+												<li><a href="microsoft">Microsoft</a></li>
+												<li><a href="pc">PC</a></li>
+											<li><a href="contactus">Contacto</a></li>
+											<li><a href="api">Api</a></li>
 											<li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();">Logout</a>
 											<form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
 											{{ csrf_field() }}
