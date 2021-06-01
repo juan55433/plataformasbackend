@@ -144,31 +144,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<div id="resultado">
 	<script>
-			$(function () {
-				fetch('https://rickandmortyapi.com/api/character').then(x =>
+			function agregarPorNombre (){
+				var random = Math.floor(Math.random() * (671 - 1) + 1);
+				console.log("random ="+random);
+				fetch('https://rickandmortyapi.com/api/character/'+random).then(x =>
 					x.json().then(response => {
 						var ans = "";
-						for (var i in response.results) {
-							console.log('dentro del for')
-							console.log(response.results[i])
-							temp = response.results[i];
-
-							ans += "<div class= 'usuario'><img class = 'img-circle' src='" + temp.image + "' />";
-							ans += "<p>";
-							ans += temp.name;
-							ans += "</p></div>";
-						}
-
-						resultado.innerHTML = ans;
-
+						temp = response;
+						console.log(temp.name);
+						ans += "<div class= 'usuario' id='"+temp.id+"'><img class = 'img-circle' src='" + temp.image + "' />";
+						ans += "<p>";
+						ans += temp.name;
+						ans += "</p><button class='btn btn-danger' type='button' style='margin-bottom: 20px' onclick='eliminar("+temp.id+")'>Eliminar personaje</button></div>";
+						$("#agregado").append(ans)
 					}
 
 					))
-
-
-
-
-
 			})
 
 
