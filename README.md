@@ -17,3 +17,17 @@ Juan Camilo Ochoa Duran
 
 Daniel Arboleda Cuervo
 
+Cómo instalar: 
+
+1. Instalar Laragón
+2. En la barra de herramientas, en el despliegue de las aplicaciones, click derecho a laragon, creación rápida de sitio web, laravel
+3. https://drive.google.com/file/d/19V-xP_JO4vzp8Vgpi4iC_MbUvfnkoFEZ/view?usp=sharing descargar la base de datos
+4. Iniciar todo en laragon
+5. En laragon click en base de datos, ir a la sesión principal, crear una base de datos llamada laravel con usuario root sin contraseña
+6. Doble click en laravel
+7. Ejecutar la consulta del archivo descargado anteriormente
+
+Solución a posibles errores:
+1. Desmarcar la línea ;Extension=pdo_mysqli solo quitar el ';'
+2. Reinstalar php
+3. Reinstalar laragon
